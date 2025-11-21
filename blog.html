@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog - AmarKrishna</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="favicon.ico" rel="icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/premium-styles.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid d-none d-lg-block"
+        style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 12px 0;">
+        <div class="container">
+            <div class="row align-items-center text-white">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center"><i
+                            class="fas fa-map-marker-alt mr-2"></i><small>India</small></div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center"><i
+                            class="fas fa-envelope mr-2"></i><small>amarkrishna075@gmail.com</small></div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center justify-content-end"><i
+                            class="fas fa-phone-alt mr-2"></i><small>9149858527</small></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light glass-navbar sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="m-0 brand-logo" style="font-size: 2rem;"><i
+                        class="fas fa-graduation-cap mr-2"></i>AmarKrishna</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a href="index.html" class="nav-item nav-link font-weight-600">Home</a>
+                    <a href="about.html" class="nav-item nav-link font-weight-600">About</a>
+                    <a href="course.html" class="nav-item nav-link font-weight-600">Courses</a>
+                    <a href="teacher.html" class="nav-item nav-link font-weight-600">Teachers</a>
+                    <a href="blog.html" class="nav-item nav-link active font-weight-600">Blog</a>
+                    <a href="contact.html" class="nav-item nav-link font-weight-600">Contact</a>
+                </div>
+                <button class="btn btn-premium ml-3 d-none d-lg-block" onclick="showCourseRecommender()"><i
+                        class="fas fa-magic mr-2"></i>AI Recommender</button>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid"
+        style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 120px 0 80px; position: relative; overflow: hidden;">
+        <div
+            style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml,<svg width=&quot;100&quot; height=&quot;100&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;><defs><pattern id=&quot;grid&quot; width=&quot;100&quot; height=&quot;100&quot; patternUnits=&quot;userSpaceOnUse&quot;><path d=&quot;M 100 0 L 0 0 0 100&quot; fill=&quot;none&quot; stroke=&quot;rgba(255,255,255,0.1)&quot; stroke-width=&quot;1&quot;/></pattern></defs><rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;url(%23grid)&quot;/></svg>'); opacity: 0.3;">
+        </div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div class="text-center text-white">
+                <h1 class="display-3 font-weight-bold mb-3">Our Blog</h1>
+                <p class="lead mb-4">Latest insights and learning resources</p>
+            </div>
+        </div>
+    </div>
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="premium-card animate-on-scroll"><img src="blog-1.jpg" alt="Blog"
+                            style="width: 100%; height: 250px; object-fit: cover;">
+                        <div class="card-content"><span class="card-badge">AI & Technology</span>
+                            <h4 class="mt-3 mb-2">The Future of AI in Education</h4>
+                            <p class="text-muted mb-3">Discover how artificial intelligence is transforming the way we
+                                learn and teach...</p><a href="#" class="btn btn-premium-outline">Read More <i
+                                    class="fas fa-arrow-right ml-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="premium-card animate-on-scroll"><img src="blog-2.jpg" alt="Blog"
+                            style="width: 100%; height: 250px; object-fit: cover;">
+                        <div class="card-content"><span class="card-badge">Career Tips</span>
+                            <h4 class="mt-3 mb-2">Top Skills to Learn in 2025</h4>
+                            <p class="text-muted mb-3">Stay ahead of the curve with these in-demand skills that
+                                employers are looking for...</p><a href="#" class="btn btn-premium-outline">Read More <i
+                                    class="fas fa-arrow-right ml-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="premium-card animate-on-scroll"><img src="blog-3.jpg" alt="Blog"
+                            style="width: 100%; height: 250px; object-fit: cover;">
+                        <div class="card-content"><span class="card-badge">Study Tips</span>
+                            <h4 class="mt-3 mb-2">Effective Learning Strategies</h4>
+                            <p class="text-muted mb-3">Learn proven techniques to maximize your learning efficiency and
+                                retention...</p><a href="#" class="btn btn-premium-outline">Read More <i
+                                    class="fas fa-arrow-right ml-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="premium-card animate-on-scroll"><img src="blog-1.jpg" alt="Blog"
+                            style="width: 100%; height: 250px; object-fit: cover;">
+                        <div class="card-content"><span class="card-badge">Web Development</span>
+                            <h4 class="mt-3 mb-2">Modern Web Development Trends</h4>
+                            <p class="text-muted mb-3">Explore the latest frameworks and tools shaping web development
+                                today...</p><a href="#" class="btn btn-premium-outline">Read More <i
+                                    class="fas fa-arrow-right ml-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="premium-card animate-on-scroll"><img src="blog-2.jpg" alt="Blog"
+                            style="width: 100%; height: 250px; object-fit: cover;">
+                        <div class="card-content"><span class="card-badge">Success Stories</span>
+                            <h4 class="mt-3 mb-2">From Student to Professional</h4>
+                            <p class="text-muted mb-3">Inspiring stories of students who transformed their careers with
+                                online learning...</p><a href="#" class="btn btn-premium-outline">Read More <i
+                                    class="fas fa-arrow-right ml-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="premium-card animate-on-scroll"><img src="blog-3.jpg" alt="Blog"
+                            style="width: 100%; height: 250px; object-fit: cover;">
+                        <div class="card-content"><span class="card-badge">Industry Insights</span>
+                            <h4 class="mt-3 mb-2">The Rise of Remote Work</h4>
+                            <p class="text-muted mb-3">How remote work is changing the job market and what skills you
+                                need...</p><a href="#" class="btn btn-premium-outline">Read More <i
+                                    class="fas fa-arrow-right ml-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-premium">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h5><i class="fas fa-graduation-cap mr-2"></i>AmarKrishna</h5>
+                        <p class="mb-4" style="color: rgba(255, 255, 255, 0.7);">Transform your future with AI-powered
+                            learning.</p>
+                        <div class="social-links"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i
+                                    class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h5>Contact Info</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-3"><i class="fas fa-phone-alt mr-2" style="color: #667eea;"></i><a
+                                    href="tel:9149858527" class="footer-link">9149858527</a></li>
+                            <li class="mb-3"><i class="fas fa-envelope mr-2" style="color: #667eea;"></i><a
+                                    href="mailto:amarkrishna075@gmail.com"
+                                    class="footer-link">amarkrishna075@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="mb-0 text-center" style="color: rgba(255, 255, 255, 0.7);">&copy; 2025
+                    <strong>AmarKrishna</strong>. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="js/ai-components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

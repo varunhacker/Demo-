@@ -3,631 +3,987 @@
 
 <head>
     <meta charset="utf-8">
-    <title>amarkrishna - Online Education Website Template</title>
+    <title>AmarKrishna - Premium AI-Powered Learning Platform</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="AmarKrishna, Online Learning, AI-Powered Education, Premium Courses" name="keywords">
+    <meta content="Transform your future with AmarKrishna - The most advanced AI-powered learning platform"
+        name="description">
 
     <!-- Favicon -->
     <link href="favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="style.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Premium Custom Styles -->
+    <link href="css/premium-styles.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark">
-        <div class="row py-2 px-lg-5">
-            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center text-white">
-                    <small><i class="fa fa-phone-alt mr-2"></i>+91 9149858527</small>
-                    <small class="px-3">|</small>
-                    <small><i class="fa fa-envelope mr-2"></i>amarkrishna075@gmail.com</small>
+    <div class="container-fluid d-none d-lg-block"
+        style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 12px 0;">
+        <div class="container">
+            <div class="row align-items-center text-white">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-map-marker-alt mr-2"></i>
+                        <small>India</small>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-6 text-center text-lg-right">
-                <div class="d-inline-flex align-items-center">
-                    <a class="text-white px-2" href="">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a class="text-white px-2" href="">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a class="text-white px-2" href="">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a class="text-white px-2" href="">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a class="text-white pl-2" href="">
-                        <i class="fab fa-youtube"></i>
-                    </a>
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-envelope mr-2"></i>
+                        <small>amarkrishna075@gmail.com</small>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <i class="fas fa-phone-alt mr-2"></i>
+                        <small>9149858527</small>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
-    <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
-            <a href="index.html" class="navbar-brand ml-lg-3">
-                <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>amarkrishna</h1>
+    <nav class="navbar navbar-expand-lg navbar-light glass-navbar sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="m-0 brand-logo" style="font-size: 2rem;">
+                    <i class="fas fa-graduation-cap mr-2"></i>AmarKrishna
+                </h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-                <div class="navbar-nav mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="course.html" class="nav-item nav-link">Courses</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="feature.html" class="dropdown-item">Features</a>
-                            <a href="team.html" class="dropdown-item">Instructors</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active font-weight-600">Home</a>
+                    <a href="about.html" class="nav-item nav-link font-weight-600">About</a>
+                    <a href="course.html" class="nav-item nav-link font-weight-600">Courses</a>
+                    <a href="teacher.html" class="nav-item nav-link font-weight-600">Teachers</a>
+                    <a href="blog.html" class="nav-item nav-link font-weight-600">Blog</a>
+                    <a href="contact.html" class="nav-item nav-link font-weight-600">Contact</a>
                 </div>
-                <a href="https://amarkrishna.com/sections/consultation.html" class="btn btn-primary py-2 px-4 d-none d-lg-block">Book a Free Consultation</a>
+                <button class="btn btn-premium ml-3 d-none d-lg-block text-white" onclick="showCourseRecommender()">
+                    <i class="fas fa-magic mr-2"></i>AI Recommender
+                </button>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
     <!-- Navbar End -->
 
+    <!-- Hero Section Start -->
+    <section class="hero-premium">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-on-scroll text-white">
+                    Transform Your Future with<br>
+                    <span class="text-white">AI-Powered Learning</span>
+                </h1>
 
-    <!-- Header Start -->
-    <div class="jumbotron jumbotron-fluid position-relative overlay-bottom" style="margin-bottom: 90px;">
-        <div class="container text-center my-5 py-5">
-            <h1 class="text-white mt-4 mb-4">Learn From Home</h1>
-            <h1 class="text-white display-1 mb-5">Education Courses</h1>
-            <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-outline-light bg-white text-body px-4 dropdown-toggle" type="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Courses</button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Courses 1</a>
-                            <a class="dropdown-item" href="#">Courses 2</a>
-                            <a class="dropdown-item" href="#">Courses 3</a>
-                        </div>
+                <div class="hero-search animate-on-scroll">
+                    <div class="search-box-premium">
+                        <i class="fas fa-search" style="padding: 0 20px; color: #d2d8f5;"></i>
+                        <input type="text" class="ai-search-input"
+                            placeholder="What do you want to learn today? (Try: Web Design, AI, Marketing...)">
+                        <button type="button">
+                            <i class="fas fa-magic mr-2"></i>Search
+                        </button>
                     </div>
-                    <input type="text" class="form-control border-light" style="padding: 30px 25px;" placeholder="Keyword">
-                    <div class="input-group-append">
-                        <button class="btn btn-secondary px-4 px-lg-5">Search</button>
+                </div>
+
+                <div class="mt-4 animate-on-scroll">
+                    <button class="btn btn-premium btn-lg mr-3 text-white">
+                        <i class="fas fa-play-circle mr-2"></i>Explore Courses
+                    </button>
+                    <button class="btn btn-premium-outline btn-lg text-white">
+                        <i class="fas fa-info-circle mr-2"></i>Learn More
+                    </button>
+                </div>
+
+                <div class="mt-5 d-flex justify-content-center gap-4 flex-wrap" style="gap: 2rem;">
+                    <div class="text-center">
+                        <h3 class="font-weight-bold mb-0 text-white ">50K+</h3>
+                        <small class="opacity-75">Active Students</small>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-weight-bold mb-0 text-white ">500+</h3>
+                        <small class="opacity-75">Expert Courses</small>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-weight-bold mb-0 text-white">100+</h3>
+                        <small class="opacity-75">Expert Teachers</small>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-weight-bold mb-0 text-white">4.9/5</h3>
+                        <small class="opacity-75">Average Rating</small>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Header End -->
+    </section>
+    <!-- Hero Section End -->
 
-
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="about.jpg" style="object-fit: cover;">
-                    </div>
+    <!-- About Section Start -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img class="img-fluid rounded animate-on-scroll" src="about.jpg" alt="About AmarKrishna"
+                        style="border-radius: 24px !important; box-shadow: 0 20px 60px rgba(255, 250, 250, 0.15);">
                 </div>
-                <div class="col-lg-7">
-                    <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">About Us</h6>
-                        <h1 class="display-4">First Choice For Online Education Anywhere</h1>
-                    </div>
-                    <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
-                    <div class="row pt-3 mx-0">
-                        <div class="col-3 px-0">
-                            <div class="bg-success text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">123</h1>
-                                <h6 class="text-uppercase text-white">Available<span class="d-block">Subjects</span></h6>
+                <div class="col-lg-6">
+                    <div class="animate-on-scroll">
+                        <p class="section-subtitle">About Us</p>
+                        <h2 class="section-title text-left mb-4">
+                            Innovative Way To Learn<br>
+                            <span class="text-gradient">With AI Technology</span>
+                        </h2>
+                        <p class="mb-4" style="font-size: 1.125rem; line-height: 1.8; color: #ffffff;">
+                            AmarKrishna is revolutionizing online education with cutting-edge AI technology. Our
+                            platform provides personalized learning experiences, adaptive course recommendations, and
+                            intelligent study tools to help you achieve your goals faster.
+                        </p>
+
+                        <div class="row mb-4">
+                            <div class="col-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="mr-3"
+                                        style="width: 50px; height: 50px; background: linear-gradient(135deg, #09090a 0%, #2b2531 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                        <i class="fas fa-check text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">AI-Powered Learning</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="mr-3"
+                                        style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                        <i class="fas fa-check text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Expert Instructors</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="mr-3"
+                                        style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                        <i class="fas fa-check text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Lifetime Access</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="mr-3"
+                                        style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                        <i class="fas fa-check text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Certificate</h6>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-3 px-0">
-                            <div class="bg-primary text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">1234</h1>
-                                <h6 class="text-uppercase text-white">Online<span class="d-block">Courses</span></h6>
-                            </div>
-                        </div>
-                        <div class="col-3 px-0">
-                            <div class="bg-secondary text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">123</h1>
-                                <h6 class="text-uppercase text-white">Skilled<span class="d-block">Instructors</span></h6>
-                            </div>
-                        </div>
-                        <div class="col-3 px-0">
-                            <div class="bg-warning text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">1234</h1>
-                                <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
-                            </div>
-                        </div>
+
+                        <button class="btn btn-premium text-white">
+                            <i class="fas fa-arrow-right mr-2 text-white"></i>Learn More About Us
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- About End -->
+    </section>
+    <!-- About Section End -->
 
-
-    <!-- Feature Start -->
-    <div class="container-fluid bg-image" style="margin: 90px 0;">
+    <!-- Statistics Section Start -->
+    <section class="section-padding" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 my-5 pt-5 pb-lg-5">
-                    <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Why Choose Us?</h6>
-                        <h1 class="display-4">Why You Should Start Learning with Us?</h1>
-                    </div>
-                    <p class="mb-4 pb-2">Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet.</p>
-                    <div class="d-flex mb-3">
-                        <div class="btn-icon bg-primary mr-4">
-                            <i class="fa fa-2x fa-graduation-cap text-white"></i>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-card animate-on-scroll">
+                        <div class="stats-icon">
+                            <i class="fas fa-users"></i>
                         </div>
-                        <div class="mt-n1">
-                            <h4>Skilled Instructors</h4>
-                            <p>Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-3">
-                        <div class="btn-icon bg-secondary mr-4">
-                            <i class="fa fa-2x fa-certificate text-white"></i>
-                        </div>
-                        <div class="mt-n1">
-                            <h4>International Certificate</h4>
-                            <p>Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="btn-icon bg-warning mr-4">
-                            <i class="fa fa-2x fa-book-reader text-white"></i>
-                        </div>
-                        <div class="mt-n1">
-                            <h4>Online Classes</h4>
-                            <p class="m-0">Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
-                        </div>
+                        <div class="stats-number" data-target="50000" data-suffix="+">0</div>
+                        <div class="stats-label">Active Students</div>
                     </div>
                 </div>
-                <div class="col-lg-5" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="feature.jpg" style="object-fit: cover;">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-card animate-on-scroll">
+                        <div class="stats-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="stats-number" data-target="500" data-suffix="+">0</div>
+                        <div class="stats-label">Premium Courses</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-card animate-on-scroll">
+                        <div class="stats-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="stats-number" data-target="100" data-suffix="+">0</div>
+                        <div class="stats-label">Expert Teachers</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-card animate-on-scroll">
+                        <div class="stats-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="stats-number" data-target="25000" data-suffix="+">0</div>
+                        <div class="stats-label">Certificates Issued</div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Feature Start -->
+    </section>
+    <!-- Statistics Section End -->
 
+    <!-- Categories Section Start -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="section-subtitle">Explore Categories</p>
+                <h2 class="section-title">
+                    Top Learning <span class="text-gradient">Categories</span>
+                </h2>
+            </div>
 
-    <!-- Courses Start -->
-    <div class="container-fluid px-0 py-5">
-        <div class="row mx-0 justify-content-center pt-5">
-            <div class="col-lg-6">
-                <div class="section-title text-center position-relative mb-4">
-                    <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Our Courses</h6>
-                    <h1 class="display-4">Checkout New Releases Of Our Courses</h1>
-                </div>
-            </div>
-        </div>
-        <div class="owl-carousel courses-carousel">
-            <div class="courses-item position-relative">
-                <img class="img-fluid" src="courses-1.jpg" alt="">
-                <div class="courses-text">
-                    <h4 class="text-center text-white px-3">Web design & development courses for beginners</h4>
-                    <div class="border-top w-100 mt-3">
-                        <div class="d-flex justify-content-between p-4">
-                            <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                            <span class="text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="category-card animate-on-scroll">
+                        <img src="cat-1.jpg" alt="Web Design">
+                        <div class="category-content">
+                            <div class="category-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <h4 class="category-title text-white">Web Design</h4>
+                            <p class="category-count">100+ Courses</p>
                         </div>
                     </div>
-                    <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="detail.html">Course Detail</a>
-                    </div>
                 </div>
-            </div>
-            <div class="courses-item position-relative">
-                <img class="img-fluid" src="courses-2.jpg" alt="">
-                <div class="courses-text">
-                    <h4 class="text-center text-white px-3">Web design & development courses for beginners</h4>
-                    <div class="border-top w-100 mt-3">
-                        <div class="d-flex justify-content-between p-4">
-                            <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                            <span class="text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="category-card animate-on-scroll">
+                        <img src="cat-2.jpg" alt="Development">
+                        <div class="category-content">
+                            <div class="category-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h4 class="category-title text-white">Development</h4>
+                            <p class="category-count">150+ Courses</p>
                         </div>
                     </div>
-                    <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="detail.html">Course Detail</a>
-                    </div>
                 </div>
-            </div>
-            <div class="courses-item position-relative">
-                <img class="img-fluid" src="courses-3.jpg" alt="">
-                <div class="courses-text">
-                    <h4 class="text-center text-white px-3">Web design & development courses for beginners</h4>
-                    <div class="border-top w-100 mt-3">
-                        <div class="d-flex justify-content-between p-4">
-                            <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                            <span class="text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="category-card animate-on-scroll">
+                        <img src="cat-3.jpg" alt="AI & ML">
+                        <div class="category-content">
+                            <div class="category-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h4 class="category-title text-white">AI & ML</h4>
+                            <p class="category-count">80+ Courses</p>
                         </div>
                     </div>
-                    <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="detail.html">Course Detail</a>
-                    </div>
                 </div>
-            </div>
-            <div class="courses-item position-relative">
-                <img class="img-fluid" src="courses-4.jpg" alt="">
-                <div class="courses-text">
-                    <h4 class="text-center text-white px-3">Web design & development courses for beginners</h4>
-                    <div class="border-top w-100 mt-3">
-                        <div class="d-flex justify-content-between p-4">
-                            <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                            <span class="text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="category-card animate-on-scroll">
+                        <img src="cat-4.jpg" alt="Mobile Apps">
+                        <div class="category-content">
+                            <div class="category-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h4 class="category-title text-white">Mobile Apps</h4>
+                            <p class="category-count">90+ Courses</p>
                         </div>
                     </div>
-                    <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="detail.html">Course Detail</a>
-                    </div>
                 </div>
-            </div>
-            <div class="courses-item position-relative">
-                <img class="img-fluid" src="courses-5.jpg" alt="">
-                <div class="courses-text">
-                    <h4 class="text-center text-white px-3">Web design & development courses for beginners</h4>
-                    <div class="border-top w-100 mt-3">
-                        <div class="d-flex justify-content-between p-4">
-                            <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                            <span class="text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="category-card animate-on-scroll">
+                        <img src="cat-5.jpg" alt="Marketing">
+                        <div class="category-content">
+                            <div class="category-icon">
+                                <i class="fas fa-bullhorn"></i>
+                            </div>
+                            <h4 class="category-title text-white">Marketing</h4>
+                            <p class="category-count">70+ Courses</p>
                         </div>
                     </div>
-                    <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="detail.html">Course Detail</a>
-                    </div>
                 </div>
-            </div>
-            <div class="courses-item position-relative">
-                <img class="img-fluid" src="courses-6.jpg" alt="">
-                <div class="courses-text">
-                    <h4 class="text-center text-white px-3">Web design & development courses for beginners</h4>
-                    <div class="border-top w-100 mt-3">
-                        <div class="d-flex justify-content-between p-4">
-                            <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                            <span class="text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="category-card animate-on-scroll">
+                        <img src="cat-6.jpg" alt="Data Science">
+                        <div class="category-content">
+                            <div class="category-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h4 class="category-title text-white">Data Science</h4>
+                            <p class="category-count">85+ Courses</p>
                         </div>
                     </div>
-                    <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="detail.html">Course Detail</a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="category-card animate-on-scroll">
+                        <img src="cat-7.jpg" alt="Content Writing">
+                        <div class="category-content">
+                            <div class="category-icon">
+                                <i class="fas fa-pen-fancy"></i>
+                            </div>
+                            <h4 class="category-title text-white">Content Writing</h4>
+                            <p class="category-count">60+ Courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="category-card animate-on-scroll">
+                        <img src="cat-8.jpg" alt="SEO">
+                        <div class="category-content">
+                            <div class="category-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <h4 class="category-title text-white">SEO</h4>
+                            <p class="category-count">50+ Courses</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center bg-image mx-0 mb-5">
-            <div class="col-lg-6 py-5">
-                <div class="bg-white p-5 my-5">
-                    <h1 class="text-center mb-4">30% Off For New Students</h1>
-                    <form>
-                        <div class="form-row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="padding: 30px 20px;">
+    </section>
+    <!-- Categories Section End -->
+
+    <!-- Popular Courses Section Start -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="section-subtitle">Our Courses</p>
+                <h2 class="section-title">
+                    Popular <span class="text-gradient">Courses</span>
+                </h2>
+                <div class="mt-3">
+                    <span class="ai-badge-icon">
+                        <i class="fas fa-magic"></i>
+                        AI Recommended
+                    </span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="course-card animate-on-scroll">
+                        <div class="course-image">
+                            <img src="course-1.jpg" alt="Course">
+                            <div class="course-overlay">
+                                <button class="btn btn-ai btn-sm">
+                                    <i class="fas fa-play"></i> Preview
+                                </button>
+                            </div>
+                        </div>
+                        <div class="course-body">
+                            <div class="mb-2">
+                                <span class="card-badge ai-badge">AI Recommended</span>
+                            </div>
+                            <div class="course-meta">
+                                <span><i class="fas fa-users"></i> 1,234 Students</span>
+                                <span><i class="far fa-clock"></i> 12 Hours</span>
+                            </div>
+                            <h5 class="course-title">Complete Web Design & Development Masterclass</h5>
+                            <div class="course-footer">
+                                <div class="course-rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.8</span>
+                                    <small class="text-muted">(250)</small>
                                 </div>
+                                <div class="course-price">₹999</div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="padding: 30px 20px;">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <select class="custom-select bg-light border-0 px-3" style="height: 60px;">
-                                        <option selected>Select A courses</option>
-                                        <option value="1">courses 1</option>
-                                        <option value="2">courses 1</option>
-                                        <option value="3">courses 1</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <button class="btn btn-primary btn-block" type="submit" style="height: 60px;">Sign Up Now</button>
+                            <div class="mt-3 d-flex gap-2" style="gap: 8px;">
+                                <button class="btn btn-sm btn-ai btn-ai-notes flex-fill">
+                                    <i class="fas fa-file-alt"></i> AI Notes
+                                </button>
+                                <button class="btn btn-sm btn-ai btn-ai-quiz flex-fill">
+                                    <i class="fas fa-question-circle"></i> AI Quiz
+                                </button>
                             </div>
                         </div>
-                    </form>
+                    </div>
                 </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="course-card animate-on-scroll">
+                        <div class="course-image">
+                            <img src="course-2.jpg" alt="Course">
+                            <div class="course-overlay">
+                                <button class="btn btn-ai btn-sm">
+                                    <i class="fas fa-play"></i> Preview
+                                </button>
+                            </div>
+                        </div>
+                        <div class="course-body">
+                            <div class="mb-2">
+                                <span class="card-badge">Trending</span>
+                            </div>
+                            <div class="course-meta">
+                                <span><i class="fas fa-users"></i> 2,156 Students</span>
+                                <span><i class="far fa-clock"></i> 15 Hours</span>
+                            </div>
+                            <h5 class="course-title">Python Programming: From Beginner to Advanced</h5>
+                            <div class="course-footer">
+                                <div class="course-rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.9</span>
+                                    <small class="text-muted">(450)</small>
+                                </div>
+                                <div class="course-price">₹1,299</div>
+                            </div>
+                            <div class="mt-3 d-flex gap-2" style="gap: 8px;">
+                                <button class="btn btn-sm btn-ai btn-ai-notes flex-fill">
+                                    <i class="fas fa-file-alt"></i> AI Notes
+                                </button>
+                                <button class="btn btn-sm btn-ai btn-ai-quiz flex-fill">
+                                    <i class="fas fa-question-circle"></i> AI Quiz
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="course-card animate-on-scroll">
+                        <div class="course-image">
+                            <img src="course-3.jpg" alt="Course">
+                            <div class="course-overlay">
+                                <button class="btn btn-ai btn-sm">
+                                    <i class="fas fa-play"></i> Preview
+                                </button>
+                            </div>
+                        </div>
+                        <div class="course-body">
+                            <div class="mb-2">
+                                <span class="card-badge ai-badge">AI Recommended</span>
+                            </div>
+                            <div class="course-meta">
+                                <span><i class="fas fa-users"></i> 987 Students</span>
+                                <span><i class="far fa-clock"></i> 10 Hours</span>
+                            </div>
+                            <h5 class="course-title">Digital Marketing Mastery: SEO, Social Media & Ads</h5>
+                            <div class="course-footer">
+                                <div class="course-rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.7</span>
+                                    <small class="text-muted">(320)</small>
+                                </div>
+                                <div class="course-price">₹899</div>
+                            </div>
+                            <div class="mt-3 d-flex gap-2" style="gap: 8px;">
+                                <button class="btn btn-sm btn-ai btn-ai-notes flex-fill">
+                                    <i class="fas fa-file-alt"></i> AI Notes
+                                </button>
+                                <button class="btn btn-sm btn-ai btn-ai-quiz flex-fill">
+                                    <i class="fas fa-question-circle"></i> AI Quiz
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="course-card animate-on-scroll">
+                        <div class="course-image">
+                            <img src="course-4.jpg" alt="Course">
+                            <div class="course-overlay">
+                                <button class="btn btn-ai btn-sm">
+                                    <i class="fas fa-play"></i> Preview
+                                </button>
+                            </div>
+                        </div>
+                        <div class="course-body">
+                            <div class="mb-2">
+                                <span class="card-badge">New</span>
+                            </div>
+                            <div class="course-meta">
+                                <span><i class="fas fa-users"></i> 1,567 Students</span>
+                                <span><i class="far fa-clock"></i> 18 Hours</span>
+                            </div>
+                            <h5 class="course-title">AI & Machine Learning Complete Bootcamp 2025</h5>
+                            <div class="course-footer">
+                                <div class="course-rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.9</span>
+                                    <small class="text-muted">(580)</small>
+                                </div>
+                                <div class="course-price">₹1,999</div>
+                            </div>
+                            <div class="mt-3 d-flex gap-2" style="gap: 8px;">
+                                <button class="btn btn-sm btn-ai btn-ai-notes flex-fill">
+                                    <i class="fas fa-file-alt"></i> AI Notes
+                                </button>
+                                <button class="btn btn-sm btn-ai btn-ai-quiz flex-fill">
+                                    <i class="fas fa-question-circle"></i> AI Quiz
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="course-card animate-on-scroll">
+                        <div class="course-image">
+                            <img src="course-5.jpg" alt="Course">
+                            <div class="course-overlay">
+                                <button class="btn btn-ai btn-sm">
+                                    <i class="fas fa-play"></i> Preview
+                                </button>
+                            </div>
+                        </div>
+                        <div class="course-body">
+                            <div class="mb-2">
+                                <span class="card-badge">Best Seller</span>
+                            </div>
+                            <div class="course-meta">
+                                <span><i class="fas fa-users"></i> 3,245 Students</span>
+                                <span><i class="far fa-clock"></i> 20 Hours</span>
+                            </div>
+                            <h5 class="course-title">Full Stack Web Development with React & Node.js</h5>
+                            <div class="course-footer">
+                                <div class="course-rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>5.0</span>
+                                    <small class="text-muted">(890)</small>
+                                </div>
+                                <div class="course-price">₹1,499</div>
+                            </div>
+                            <div class="mt-3 d-flex gap-2" style="gap: 8px;">
+                                <button class="btn btn-sm btn-ai btn-ai-notes flex-fill">
+                                    <i class="fas fa-file-alt"></i> AI Notes
+                                </button>
+                                <button class="btn btn-sm btn-ai btn-ai-quiz flex-fill">
+                                    <i class="fas fa-question-circle"></i> AI Quiz
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="course-card animate-on-scroll">
+                        <div class="course-image">
+                            <img src="course-6.jpg" alt="Course">
+                            <div class="course-overlay">
+                                <button class="btn btn-ai btn-sm">
+                                    <i class="fas fa-play"></i> Preview
+                                </button>
+                            </div>
+                        </div>
+                        <div class="course-body">
+                            <div class="mb-2">
+                                <span class="card-badge ai-badge">AI Recommended</span>
+                            </div>
+                            <div class="course-meta">
+                                <span><i class="fas fa-users"></i> 1,876 Students</span>
+                                <span><i class="far fa-clock"></i> 14 Hours</span>
+                            </div>
+                            <h5 class="course-title">UI/UX Design Masterclass: Figma to Production</h5>
+                            <div class="course-footer">
+                                <div class="course-rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.8</span>
+                                    <small class="text-muted">(670)</small>
+                                </div>
+                                <div class="course-price">₹1,199</div>
+                            </div>
+                            <div class="mt-3 d-flex gap-2" style="gap: 8px;">
+                                <button class="btn btn-sm btn-ai btn-ai-notes flex-fill">
+                                    <i class="fas fa-file-alt"></i> AI Notes
+                                </button>
+                                <button class="btn btn-sm btn-ai btn-ai-quiz flex-fill">
+                                    <i class="fas fa-question-circle"></i> AI Quiz
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="course.html" class="btn btn-premium btn-lg text-white">
+                    <i class="fas fa-th-large mr-2"></i>View All Courses
+                </a>
             </div>
         </div>
-    </div>
-    <!-- Courses End -->
+    </section>
+    <!-- Popular Courses Section End -->
 
-
-    <!-- Team Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative mb-5">
-                <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Instructors</h6>
-                <h1 class="display-4">Meet Our Instructors</h1>
-            </div>
-            <div class="owl-carousel team-carousel position-relative" style="padding: 0 30px;">
-                <div class="team-item">
-                    <img class="img-fluid w-100" src="team-1.jpg" alt="">
-                    <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
-                        <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <img class="img-fluid w-100" src="team-2.jpg" alt="">
-                    <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
-                        <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <img class="img-fluid w-100" src="team-3.jpg" alt="">
-                    <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
-                        <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <img class="img-fluid w-100" src="team-4.jpg" alt="">
-                    <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
-                        <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- CTA Section Start -->
+    <section class="section-padding"
+        style="background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); position: relative; overflow: hidden;">
+        <div
+            style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml,<svg width=&quot;100&quot; height=&quot;100&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;><defs><pattern id=&quot;grid&quot; width=&quot;100&quot; height=&quot;100&quot; patternUnits=&quot;userSpaceOnUse&quot;><path d=&quot;M 100 0 L 0 0 0 100&quot; fill=&quot;none&quot; stroke=&quot;rgba(255,255,255,0.1)&quot; stroke-width=&quot;1&quot;/></pattern></defs><rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;url(%23grid)&quot;/></svg>'); opacity: 0.3;">
         </div>
-    </div>
-    <!-- Team End -->
-    <!-- Testimonial Start -->
-    <div class="container-fluid bg-image py-5" style="margin: 90px 0;">
-        <div class="container py-5">
+        <div class="container" style="position: relative; z-index: 2;">
             <div class="row align-items-center">
-                <div class="col-lg-5 mb-5 mb-lg-0">
-                    <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Testimonial</h6>
-                        <h1 class="display-4">What Say Our Students</h1>
-                    </div>
-                    <p class="m-0">Dolor est dolores et nonumy sit labore dolores est sed rebum amet, justo duo ipsum sanctus dolore magna rebum sit et. Diam lorem ea sea at. Nonumy et at at sed justo est nonumy tempor. Vero sea ea eirmod, elitr ea amet diam ipsum at amet. Erat sed stet eos ipsum diam</p>
+                <div class="col-lg-8 text-white mb-4 mb-lg-0 ">
+                    <h2 class="display-4 font-weight-bold mb-3 text-white">Ready to Start Learning?</h2>
+                    <p class="lead mb-4">Join 50,000+ students already learning on AmarKrishna. Get instant access to
+                        500+ courses with AI-powered learning tools.</p>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><i class="fas fa-check-circle mr-2"></i> Lifetime access to all courses</li>
+                        <li class="mb-2"><i class="fas fa-check-circle mr-2"></i> AI-powered study tools &
+                            recommendations</li>
+                        <li class="mb-2"><i class="fas fa-check-circle mr-2"></i> Industry-recognized certificates</li>
+                        <li class="mb-2"><i class="fas fa-check-circle mr-2"></i> 24/7 expert support</li>
+                    </ul>
                 </div>
-                <div class="col-lg-7">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="bg-white p-5">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <p>Sed et elitr ipsum labore dolor diam, ipsum duo vero sed sit est est ipsum eos clita est ipsum. Est nonumy tempor at kasd. Sed at dolor duo ut dolor, et justo erat dolor magna sed stet amet elitr duo lorem</p>
-                            <div class="d-flex flex-shrink-0 align-items-center mt-4">
-                                <img class="img-fluid mr-4" src="testimonial-2.jpg" alt="">
-                                <div>
-                                    <h5>Student Name</h5>
-                                    <span>Web Design</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bg-white p-5">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <p>Sed et elitr ipsum labore dolor diam, ipsum duo vero sed sit est est ipsum eos clita est ipsum. Est nonumy tempor at kasd. Sed at dolor duo ut dolor, et justo erat dolor magna sed stet amet elitr duo lorem</p>
-                            <div class="d-flex flex-shrink-0 align-items-center mt-4">
-                                <img class="img-fluid mr-4" src="testimonial-1.jpg" alt="">
-                                <div>
-                                    <h5>Student Name</h5>
-                                    <span>Web Design</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial Start -->
-
-
-    <!-- Contact Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-5 mb-5 mb-lg-0">
-                    <div class="bg-light d-flex flex-column justify-content-center px-5" style="height: 450px;">
-                        <div class="d-flex align-items-center mb-5">
-                            <div class="btn-icon bg-primary mr-4">
-                                <i class="fa fa-2x fa-map-marker-alt text-white"></i>
-                            </div>
-                            <div class="mt-n1">
-                                <h4>Our Location</h4>
-                                <p class="m-0">AmarKrishna HQ, Chandigarh, India</p>
-                            </div>
-                        </div>
-                        <div class="d-flex align-items-center mb-5">
-                            <div class="btn-icon bg-secondary mr-4">
-                                <i class="fa fa-2x fa-phone-alt text-white"></i>
-                            </div>
-                            <div class="mt-n1">
-                                <h4>Call Us</h4>
-                                <p class="m-0">+91 9149858527</p>
-                            </div>
-                        </div>
-                        <div class="d-flex align-items-center">
-                            <div class="btn-icon bg-warning mr-4">
-                                <i class="fa fa-2x fa-envelope text-white"></i>
-                            </div>
-                            <div class="mt-n1">
-                                <h4>Email Us</h4>
-                                <p class="m-0">amarkrishna075@gmail.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Need Help?</h6>
-                        <h1 class="display-4">Send Us A Message</h1>
-                        <h4 class="mb-4">Receive messages instantly with our PHP and Ajax contact form - available in the <a href="https://htmlcodex.com/downloading/?item=1574">Pro Version</a> only.</h4>
-                    </div>
-                    <div class="contact-form">
+                <div class="col-lg-4">
+                    <div class="glass-card p-4" style="background: rgba(255, 255, 255, 0.95);">
+                        <h4 class="text-center mb-4 text-gradient">Start Your Journey</h4>
                         <form>
-                            <div class="row">
-                                <div class="col-6 form-group">
-                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0 p-0" placeholder="Your Name" required="required">
-                                </div>
-                                <div class="col-6 form-group">
-                                    <input type="email" class="form-control border-top-0 border-right-0 border-left-0 p-0" placeholder="Your Email" required="required">
-                                </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name"
+                                    style="border-radius: 12px; padding: 14px; border: 2px solid #e9ecef;">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control border-top-0 border-right-0 border-left-0 p-0" placeholder="Subject" required="required">
+                                <input type="email" class="form-control" placeholder="Your Email"
+                                    style="border-radius: 12px; padding: 14px; border: 2px solid #e9ecef;">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control border-top-0 border-right-0 border-left-0 p-0" rows="5" placeholder="Message" required="required"></textarea>
+                                <input type="tel" class="form-control" placeholder="Phone Number"
+                                    style="border-radius: 12px; padding: 14px; border: 2px solid #e9ecef;">
                             </div>
-                            <div>
-                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                            <div class="form-group">
+                                <select class="form-control"
+                                    style="border-radius: 12px; padding: 14px; border: 2px solid #e9ecef;">
+                                    <option>Select Your Interest</option>
+                                    <option>Web Development</option>
+                                    <option>Mobile Development</option>
+                                    <option>Data Science</option>
+                                    <option>AI & Machine Learning</option>
+                                    <option>Digital Marketing</option>
+                                    <option>Design</option>
+                                </select>
                             </div>
+                            <button type="submit" class="btn btn-premium btn-block btn-lg">
+                                <i class="fas fa-rocket mr-2"></i>Get Started Free
+                            </button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Contact End -->
+    </section>
+    <!-- CTA Section End -->
 
+    <!-- Team Section Start -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="section-subtitle">Our Team</p>
+                <h2 class="section-title">
+                    Meet Our <span class="text-gradient">Expert Teachers</span>
+                </h2>
+            </div>
 
-    <!-- Footer Start -->
-    <div class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5" style="margin-top: 90px;">
-        <div class="container mt-5 pt-5">
             <div class="row">
-                <div class="col-md-6 mb-5">
-                    <a href="index.html" class="navbar-brand">
-                        <h1 class="mt-n2 text-uppercase text-white"><i class="fa fa-book-reader mr-3"></i>amarkrishna</h1>
-                    </a>
-                    <p class="m-0">Accusam nonumy clita sed rebum kasd eirmod elitr. Ipsum ea lorem at et diam est, tempor rebum ipsum sit ea tempor stet et consetetur dolores. Justo stet diam ipsum lorem vero clita diam</p>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card animate-on-scroll">
+                        <div class="team-image">
+                            <img src="team-1.jpg" alt="Teacher">
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h5 class="team-name">Dr. Rajesh Kumar</h5>
+                            <p class="team-role">AI & ML Expert</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 mb-5">
-                    <h3 class="text-white mb-4">Newsletter</h3>
-                    <div class="w-100">
-                        <div class="input-group">
-                            <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary px-4">Sign Up</button>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card animate-on-scroll">
+                        <div class="team-image">
+                            <img src="team-2.jpg" alt="Teacher">
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h5 class="team-name">Priya Sharma</h5>
+                            <p class="team-role">Web Development</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card animate-on-scroll">
+                        <div class="team-image">
+                            <img src="team-3.jpg" alt="Teacher">
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h5 class="team-name">Amit Patel</h5>
+                            <p class="team-role">Digital Marketing</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card animate-on-scroll">
+                        <div class="team-image">
+                            <img src="team-4.jpg" alt="Teacher">
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h5 class="team-name">Sneha Reddy</h5>
+                            <p class="team-role">UI/UX Design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Testimonials Section Start -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="section-subtitle">Testimonials</p>
+                <h2 class="section-title">
+                    What Our <span class="text-gradient">Students Say</span>
+                </h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">
+                                "AmarKrishna's AI-powered learning tools have completely transformed my learning
+                                experience. The personalized recommendations helped me find exactly what I needed to
+                                advance my career."
+                            </p>
+                            <div class="testimonial-avatar">
+                                <img src="testimonial-1.jpg" alt="Student">
+                            </div>
+                            <h6 class="testimonial-name">Rahul Verma</h6>
+                            <p class="testimonial-position">Software Engineer</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">
+                                "The quality of courses and instructors is outstanding. I've learned more in 3 months
+                                here than I did in a year of self-study. The AI features are a game-changer!"
+                            </p>
+                            <div class="testimonial-avatar">
+                                <img src="testimonial-2.jpg" alt="Student">
+                            </div>
+                            <h6 class="testimonial-name">Ananya Singh</h6>
+                            <p class="testimonial-position">Digital Marketer</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">
+                                "Best investment I've made in my education. The courses are comprehensive,
+                                well-structured, and the AI study tools make learning so much more efficient."
+                            </p>
+                            <div class="testimonial-avatar">
+                                <img src="testimonial-3.jpg" alt="Student">
+                            </div>
+                            <h6 class="testimonial-name">Vikram Mehta</h6>
+                            <p class="testimonial-position">Data Scientist</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 mb-5">
-                    <h3 class="text-white mb-4">Get In Touch</h3>
-                    <p><i class="fa fa-map-marker-alt mr-2"></i>AmarKrishna HQ, Chandigarh, India</p>
-                    <p><i class="fa fa-phone-alt mr-2"></i>+91 9149858527</p>
-                    <p><i class="fa fa-envelope mr-2"></i>amarkrishna075@gmail.com</p>
-                    <div class="d-flex justify-content-start mt-4">
-                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
-                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
-                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-linkedin-in"></i></a>
-                        <a class="text-white" href="#"><i class="fab fa-2x fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <h3 class="text-white mb-4">Our Courses</h3>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Web Design</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Apps Design</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Marketing</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Research</a>
-                        <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>SEO</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <h3 class="text-white mb-4">Quick Links</h3>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Privacy Policy</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Terms & Condition</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Regular FAQs</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Help & Support</a>
-                        <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Contact</a>
-                    </div>
-                </div>
-            </div>
         </div>
-    </div>
-    <div class="container-fluid bg-dark text-white-50 border-top py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
+    </section>
+    <!-- Testimonials Section End -->
+
+    <!-- Footer Start -->
+    <footer class="footer-premium">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                    <p class="m-0">Copyright &copy; <a class="text-white" href="https://amarkrishna.com">amarkrishna</a>. All Rights Reserved.
-                    </p>
+                <div class="col-lg-4 col-md-6 mb-4 text-white">
+                    <div class="footer-widget text-white">
+                        <h5>
+                            <i class="fas fa-graduation-cap mr-2 text-white"></i>AmarKrishna
+                        </h5>
+                        <p class="mb-4 text-white" style="color: rgb(255, 253, 253);">
+                            Transform your future with AI-powered learning. Join thousands of students mastering new
+                            skills every day.
+                        </p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 text-center text-md-right">
-                    <!--/*** The author’s attribution link must remain intact in the template. ***/-->
-                    <!--/*** If you wish to remove this credit link, please purchase the Pro Version . ***/-->
-                    <p class="m-0">Designed by <a class="text-white" href="https://amarkrishna.com">amarkrishna</a></p>
+
+                <div class="col-lg-2 col-md-6 mb-4 text-white">
+                    <div class="footer-widget text-white">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="about.html" class="footer-link">About Us</a></li>
+                            <li class="mb-2"><a href="course.html" class="footer-link">Courses</a></li>
+                            <li class="mb-2"><a href="teacher.html" class="footer-link">Teachers</a></li>
+                            <li class="mb-2"><a href="blog.html" class="footer-link">Blog</a></li>
+                            <li class="mb-2"><a href="contact.html" class="footer-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h5>Popular Courses</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#" class="footer-link">Web Development</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link">AI & Machine Learning</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link">Digital Marketing</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link">Data Science</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link">UI/UX Design</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h5>Contact Info</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <i class="fas fa-map-marker-alt mr-2" style="color: #667eea;"></i>
+                                <span style="color: rgba(255, 255, 255, 0.7);">India</span>
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-phone-alt mr-2" style="color: #667eea;"></i>
+                                <a href="tel:9149858527" class="footer-link">9149858527</a>
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-envelope mr-2" style="color: #667eea;"></i>
+                                <a href="mailto:amarkrishna075@gmail.com"
+                                    class="footer-link">amarkrishna075@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                        <p class="mb-0" style="color: rgba(255, 255, 255, 0.7);">
+                            &copy; 2025 <strong>AmarKrishna</strong>. All Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item"><a href="#" class="footer-link">Privacy Policy</a></li>
+                            <li class="list-inline-item">|</li>
+                            <li class="list-inline-item"><a href="#" class="footer-link">Terms of Service</a></li>
+                            <li class="list-inline-item">|</li>
+                            <li class="list-inline-item"><a href="#" class="footer-link">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
+    <a href="#" class="btn btn-lg btn-premium back-to-top"
+        style="position: fixed; bottom: 30px; right: 100px; display: none; width: 50px; height: 50px; border-radius: 50%; align-items: center; justify-content: center; z-index: 999;">
+        <i class="fas fa-angle-up"></i>
+    </a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- AI Components -->
+    <script src="js/ai-components.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
 
+    <script>
+        // Initialize Owl Carousel for testimonials
+        $(document).ready(function () {
+            $(".testimonial-carousel").owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                nav: false,
+                dots: true,
+                smartSpeed: 800
+            });
+        });
+    </script>
+</body>
 
 </html>

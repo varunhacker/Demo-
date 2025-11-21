@@ -3,312 +3,574 @@
 
 <head>
     <meta charset="utf-8">
-    <title>amarkrishna - Online Education Website Template</title>
+    <title>About Us - AmarKrishna | Premium AI-Powered Learning Platform</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="AmarKrishna, About Us, Online Learning, AI Education" name="keywords">
+    <meta content="Learn about AmarKrishna - The most advanced AI-powered learning platform transforming education"
+        name="description">
 
     <!-- Favicon -->
     <link href="favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Premium Custom Styles -->
+    <link href="premium-styles.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark">
-        <div class="row py-2 px-lg-5">
-            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center text-white">
-                    <small><i class="fa fa-phone-alt mr-2"></i>+91 9149858527</small>
-                    <small class="px-3">|</small>
-                    <small><i class="fa fa-envelope mr-2"></i>amarkrishna075@gmail.com</small>
+    <div class="container-fluid d-none d-lg-block"
+        style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 12px 0;">
+        <div class="container">
+            <div class="row align-items-center text-white">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-map-marker-alt mr-2"></i>
+                        <small>India</small>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-6 text-center text-lg-right">
-                <div class="d-inline-flex align-items-center">
-                    <a class="text-white px-2" href="">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a class="text-white px-2" href="">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a class="text-white px-2" href="">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a class="text-white px-2" href="">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a class="text-white pl-2" href="">
-                        <i class="fab fa-youtube"></i>
-                    </a>
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-envelope mr-2"></i>
+                        <small>amarkrishna075@gmail.com</small>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <i class="fas fa-phone-alt mr-2"></i>
+                        <small>9149858527</small>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
+
     <!-- Navbar Start -->
-    <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
-            <a href="index.html" class="navbar-brand ml-lg-3">
-                <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>amarkrishna</h1>
+    <nav class="navbar navbar-expand-lg navbar-light glass-navbar sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="m-0 brand-logo" style="font-size: 2rem;">
+                    <i class="fas fa-graduation-cap mr-2"></i>AmarKrishna
+                </h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-                <div class="navbar-nav mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link active">About</a>
-                    <a href="course.html" class="nav-item nav-link">Courses</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="feature.html" class="dropdown-item">Features</a>
-                            <a href="team.html" class="dropdown-item">Instructors</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a href="index.html" class="nav-item nav-link font-weight-600">Home</a>
+                    <a href="about.html" class="nav-item nav-link active font-weight-600">About</a>
+                    <a href="course.html" class="nav-item nav-link font-weight-600">Courses</a>
+                    <a href="teacher.html" class="nav-item nav-link font-weight-600">Teachers</a>
+                    <a href="blog.html" class="nav-item nav-link font-weight-600">Blog</a>
+                    <a href="contact.html" class="nav-item nav-link font-weight-600">Contact</a>
                 </div>
-                <a href="https://amarkrishna.com/sections/consultation.html" class="btn btn-primary py-2 px-4 d-none d-lg-block">Book a Free Consultation</a>
+                <button class="btn btn-premium ml-3 d-none d-lg-block" onclick="showCourseRecommender()">
+                    <i class="fas fa-magic mr-2"></i>AI Recommender
+                </button>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
     <!-- Navbar End -->
 
-
-    <!-- Header Start -->
-    <div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 90px;">
-        <div class="container text-center py-5">
-            <h1 class="text-white display-1">About</h1>
-            <div class="d-inline-flex text-white mb-5">
-                <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
-                <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                <p class="m-0 text-uppercase">About</p>
+    <!-- Page Header Start -->
+    <div class="container-fluid"
+        style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 120px 0 80px; position: relative; overflow: hidden;">
+        <div
+            style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml,<svg width=&quot;100&quot; height=&quot;100&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;><defs><pattern id=&quot;grid&quot; width=&quot;100&quot; height=&quot;100&quot; patternUnits=&quot;userSpaceOnUse&quot;><path d=&quot;M 100 0 L 0 0 0 100&quot; fill=&quot;none&quot; stroke=&quot;rgba(255,255,255,0.1)&quot; stroke-width=&quot;1&quot;/></pattern></defs><rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;url(%23grid)&quot;/></svg>'); opacity: 0.3;">
+        </div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div class="text-center text-white">
+                <h1 class="display-3 font-weight-bold mb-3">About AmarKrishna</h1>
+                <p class="lead mb-4">Transforming Education with AI-Powered Learning</p>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center" style="background: transparent;">
+                        <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                        <li class="breadcrumb-item text-white active">About</li>
+                    </ol>
+                </nav>
             </div>
-            <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-outline-light bg-white text-body px-4 dropdown-toggle" type="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Courses</button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Courses 1</a>
-                            <a class="dropdown-item" href="#">Courses 2</a>
-                            <a class="dropdown-item" href="#">Courses 3</a>
-                        </div>
-                    </div>
-                    <input type="text" class="form-control border-light" style="padding: 30px 25px;" placeholder="Keyword">
-                    <div class="input-group-append">
-                        <button class="btn btn-secondary px-4 px-lg-5">Search</button>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- About Section Start -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img class="img-fluid rounded animate-on-scroll" src="about.jpg" alt="About AmarKrishna"
+                        style="border-radius: 24px !important; box-shadow: 0 20px 60px rgba(0,0,0,0.15);">
+                </div>
+                <div class="col-lg-6">
+                    <div class="animate-on-scroll">
+                        <p class="section-subtitle">Who We Are</p>
+                        <h2 class="section-title text-left mb-4">
+                            Innovative Way To Learn<br>
+                            <span class="text-gradient">With AI Technology</span>
+                        </h2>
+                        <p class="mb-4" style="font-size: 1.125rem; line-height: 1.8; color: #495057;">
+                            AmarKrishna is revolutionizing online education with cutting-edge AI technology. Our
+                            platform provides personalized learning experiences, adaptive course recommendations, and
+                            intelligent study tools to help you achieve your goals faster.
+                        </p>
+                        <p class="mb-4" style="font-size: 1.125rem; line-height: 1.8; color: #495057;">
+                            We believe that education should be accessible, engaging, and tailored to each individual's
+                            learning style. That's why we've built a platform that combines expert instruction with
+                            AI-powered tools to create the ultimate learning experience.
+                        </p>
+                        <button class="btn btn-premium">
+                            <i class="fas fa-play-circle mr-2"></i>Watch Our Story
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Header End -->
+    </section>
+    <!-- About Section End -->
 
+    <!-- Mission & Vision Start -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="section-subtitle">Our Purpose</p>
+                <h2 class="section-title">
+                    Mission & <span class="text-gradient">Vision</span>
+                </h2>
+            </div>
 
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
             <div class="row">
-                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="about.jpg" style="object-fit: cover;">
+                <div class="col-lg-6 mb-4">
+                    <div class="premium-card h-100 animate-on-scroll">
+                        <div class="card-content">
+                            <div class="mb-4"
+                                style="width: 80px; height: 80px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-bullseye text-white" style="font-size: 2rem;"></i>
+                            </div>
+                            <h3 class="mb-3">Our Mission</h3>
+                            <p style="font-size: 1.125rem; line-height: 1.8; color: #495057;">
+                                To democratize education by providing world-class learning experiences powered by AI
+                                technology, making quality education accessible to everyone, everywhere.
+                            </p>
+                            <ul class="list-unstyled mt-3">
+                                <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Accessible education for
+                                    all</li>
+                                <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> AI-powered
+                                    personalization</li>
+                                <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Expert-led courses</li>
+                                <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Continuous innovation
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-7">
-                    <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">About Us</h6>
-                        <h1 class="display-4">First Choice For Online Education Anywhere</h1>
-                    </div>
-                    <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
-                    <div class="row pt-3 mx-0">
-                        <div class="col-3 px-0">
-                            <div class="bg-success text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">123</h1>
-                                <h6 class="text-uppercase text-white">Available<span class="d-block">Subjects</span></h6>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="premium-card h-100 animate-on-scroll">
+                        <div class="card-content">
+                            <div class="mb-4"
+                                style="width: 80px; height: 80px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-eye text-white" style="font-size: 2rem;"></i>
                             </div>
-                        </div>
-                        <div class="col-3 px-0">
-                            <div class="bg-primary text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">1234</h1>
-                                <h6 class="text-uppercase text-white">Online<span class="d-block">Courses</span></h6>
-                            </div>
-                        </div>
-                        <div class="col-3 px-0">
-                            <div class="bg-secondary text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">123</h1>
-                                <h6 class="text-uppercase text-white">Skilled<span class="d-block">Instructors</span></h6>
-                            </div>
-                        </div>
-                        <div class="col-3 px-0">
-                            <div class="bg-warning text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">1234</h1>
-                                <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
-                            </div>
+                            <h3 class="mb-3">Our Vision</h3>
+                            <p style="font-size: 1.125rem; line-height: 1.8; color: #495057;">
+                                To become the world's leading AI-powered learning platform, transforming how people
+                                learn and grow, creating a global community of lifelong learners.
+                            </p>
+                            <ul class="list-unstyled mt-3">
+                                <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Global learning
+                                    community</li>
+                                <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Industry-leading AI
+                                    tools</li>
+                                <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Lifelong learning
+                                    culture</li>
+                                <li class="mb-2"><i class="fas fa-check text-primary mr-2"></i> Career transformation
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- About End -->
+    </section>
+    <!-- Mission & Vision End -->
 
-
-    <!-- Feature Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-lg-7 mb-5 mb-lg-0">
-                    <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Why Choose Us?</h6>
-                        <h1 class="display-4">Why You Should Start Learning with Us?</h1>
-                    </div>
-                    <p class="mb-4 pb-2">Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet.</p>
-                    <div class="d-flex mb-3">
-                        <div class="btn-icon bg-primary mr-4">
-                            <i class="fa fa-2x fa-graduation-cap text-white"></i>
-                        </div>
-                        <div class="mt-n1">
-                            <h4>Skilled Instructors</h4>
-                            <p>Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-3">
-                        <div class="btn-icon bg-secondary mr-4">
-                            <i class="fa fa-2x fa-certificate text-white"></i>
-                        </div>
-                        <div class="mt-n1">
-                            <h4>International Certificate</h4>
-                            <p>Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="btn-icon bg-warning mr-4">
-                            <i class="fa fa-2x fa-book-reader text-white"></i>
-                        </div>
-                        <div class="mt-n1">
-                            <h4>Online Classes</h4>
-                            <p class="m-0">Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="feature.jpg" style="object-fit: cover;">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Feature Start -->
-
-
-    <!-- Footer Start -->
-    <div class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5" style="margin-top: 90px;">
-        <div class="container mt-5 pt-5">
-            <div class="row">
-                <div class="col-md-6 mb-5">
-                    <a href="index.html" class="navbar-brand">
-                        <h1 class="mt-n2 text-uppercase text-white"><i class="fa fa-book-reader mr-3"></i>amarkrishna</h1>
-                    </a>
-                    <p class="m-0">Accusam nonumy clita sed rebum kasd eirmod elitr. Ipsum ea lorem at et diam est, tempor rebum ipsum sit ea tempor stet et consetetur dolores. Justo stet diam ipsum lorem vero clita diam</p>
-                </div>
-                <div class="col-md-6 mb-5">
-                    <h3 class="text-white mb-4">Newsletter</h3>
-                    <div class="w-100">
-                        <div class="input-group">
-                            <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary px-4">Sign Up</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 mb-5">
-                    <h3 class="text-white mb-4">Get In Touch</h3>
-                    <p><i class="fa fa-map-marker-alt mr-2"></i>AmarKrishna HQ, Chandigarh, India</p>
-                    <p><i class="fa fa-phone-alt mr-2"></i>+91 9149858527</p>
-                    <p><i class="fa fa-envelope mr-2"></i>amarkrishna075@gmail.com</p>
-
-                    <div class="d-flex justify-content-start mt-4">
-                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
-                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
-                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-linkedin-in"></i></a>
-                        <a class="text-white" href="#"><i class="fab fa-2x fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <h3 class="text-white mb-4">Our Courses</h3>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Web Design</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Apps Design</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Marketing</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Research</a>
-                        <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>SEO</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <h3 class="text-white mb-4">Quick Links</h3>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Privacy Policy</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Terms & Condition</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Regular FAQs</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Help & Support</a>
-                        <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Contact</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid bg-dark text-white-50 border-top py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
+    <!-- Statistics Section Start -->
+    <section class="section-padding" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                    <p class="m-0">Copyright &copy; <a class="text-white" href="amarkrishna.com">amarkrishna</a>. All Rights Reserved.
-                    </p>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-card animate-on-scroll">
+                        <div class="stats-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stats-number" data-target="50000" data-suffix="+">0</div>
+                        <div class="stats-label">Active Students</div>
+                    </div>
                 </div>
-                <div class="col-md-6 text-center text-md-right">
-                    <!--/*** The author’s attribution link must remain intact in the template. ***/-->
-                    <!--/*** If you wish to remove this credit link, please purchase the Pro Version . ***/-->
-                    <p class="m-0">Designed by <a class="text-white" href="https://amarkrishna.com">amarkrishna</a></p>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-card animate-on-scroll">
+                        <div class="stats-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="stats-number" data-target="500" data-suffix="+">0</div>
+                        <div class="stats-label">Premium Courses</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-card animate-on-scroll">
+                        <div class="stats-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="stats-number" data-target="100" data-suffix="+">0</div>
+                        <div class="stats-label">Expert Teachers</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-card animate-on-scroll">
+                        <div class="stats-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="stats-number" data-target="25000" data-suffix="+">0</div>
+                        <div class="stats-label">Certificates Issued</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- Statistics Section End -->
+
+    <!-- Why Choose Us Start -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="section-subtitle">Why Choose Us</p>
+                <h2 class="section-title">
+                    What Makes Us <span class="text-gradient">Different</span>
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="premium-card text-center h-100 animate-on-scroll">
+                        <div class="card-content">
+                            <div class="mb-4 mx-auto"
+                                style="width: 100px; height: 100px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-robot text-white" style="font-size: 2.5rem;"></i>
+                            </div>
+                            <h4 class="mb-3">AI-Powered Learning</h4>
+                            <p style="color: #495057;">
+                                Our advanced AI algorithms personalize your learning journey, recommend courses, and
+                                provide intelligent study tools.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="premium-card text-center h-100 animate-on-scroll">
+                        <div class="card-content">
+                            <div class="mb-4 mx-auto"
+                                style="width: 100px; height: 100px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-user-graduate text-white" style="font-size: 2.5rem;"></i>
+                            </div>
+                            <h4 class="mb-3">Expert Instructors</h4>
+                            <p style="color: #495057;">
+                                Learn from industry professionals with years of real-world experience and proven
+                                teaching methodologies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="premium-card text-center h-100 animate-on-scroll">
+                        <div class="card-content">
+                            <div class="mb-4 mx-auto"
+                                style="width: 100px; height: 100px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-infinity text-white" style="font-size: 2.5rem;"></i>
+                            </div>
+                            <h4 class="mb-3">Lifetime Access</h4>
+                            <p style="color: #495057;">
+                                Get unlimited access to all course materials, updates, and new content added in the
+                                future.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="premium-card text-center h-100 animate-on-scroll">
+                        <div class="card-content">
+                            <div class="mb-4 mx-auto"
+                                style="width: 100px; height: 100px; background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-certificate text-white" style="font-size: 2.5rem;"></i>
+                            </div>
+                            <h4 class="mb-3">Verified Certificates</h4>
+                            <p style="color: #495057;">
+                                Earn industry-recognized certificates upon course completion to boost your career
+                                prospects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="premium-card text-center h-100 animate-on-scroll">
+                        <div class="card-content">
+                            <div class="mb-4 mx-auto"
+                                style="width: 100px; height: 100px; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-users text-white" style="font-size: 2.5rem;"></i>
+                            </div>
+                            <h4 class="mb-3">Community Support</h4>
+                            <p style="color: #495057;">
+                                Join a vibrant community of learners, share knowledge, and get help from peers and
+                                mentors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="premium-card text-center h-100 animate-on-scroll">
+                        <div class="card-content">
+                            <div class="mb-4 mx-auto"
+                                style="width: 100px; height: 100px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-headset text-white" style="font-size: 2.5rem;"></i>
+                            </div>
+                            <h4 class="mb-3">24/7 Support</h4>
+                            <p style="color: #495057;">
+                                Our dedicated support team is always available to help you with any questions or issues.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose Us End -->
+
+    <!-- Testimonials Section Start -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="section-subtitle">Testimonials</p>
+                <h2 class="section-title">
+                    What Our <span class="text-gradient">Students Say</span>
+                </h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">
+                                "AmarKrishna's AI-powered learning tools have completely transformed my learning
+                                experience. The personalized recommendations helped me find exactly what I needed to
+                                advance my career."
+                            </p>
+                            <div class="testimonial-avatar">
+                                <img src="testimonial-1.jpg" alt="Student">
+                            </div>
+                            <h6 class="testimonial-name">Rahul Verma</h6>
+                            <p class="testimonial-position">Software Engineer</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">
+                                "The quality of courses and instructors is outstanding. I've learned more in 3 months
+                                here than I did in a year of self-study. The AI features are a game-changer!"
+                            </p>
+                            <div class="testimonial-avatar">
+                                <img src="testimonial-2.jpg" alt="Student">
+                            </div>
+                            <h6 class="testimonial-name">Ananya Singh</h6>
+                            <p class="testimonial-position">Digital Marketer</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-quote">
+                                "Best investment I've made in my education. The courses are comprehensive,
+                                well-structured, and the AI study tools make learning so much more efficient."
+                            </p>
+                            <div class="testimonial-avatar">
+                                <img src="/testimonial-3.jpg" alt="Student">
+                            </div>
+                            <h6 class="testimonial-name">Vikram Mehta</h6>
+                            <p class="testimonial-position">Data Scientist</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section End -->
+
+    <!-- Footer Start -->
+    <footer class="footer-premium">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h5>
+                            <i class="fas fa-graduation-cap mr-2"></i>AmarKrishna
+                        </h5>
+                        <p class="mb-4" style="color: rgba(255, 255, 255, 0.7);">
+                            Transform your future with AI-powered learning. Join thousands of students mastering new
+                            skills every day.
+                        </p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="about.html" class="footer-link">About Us</a></li>
+                            <li class="mb-2"><a href="course.html" class="footer-link">Courses</a></li>
+                            <li class="mb-2"><a href="teacher.html" class="footer-link">Teachers</a></li>
+                            <li class="mb-2"><a href="blog.html" class="footer-link">Blog</a></li>
+                            <li class="mb-2"><a href="contact.html" class="footer-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h5>Popular Courses</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#" class="footer-link">Web Development</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link">AI & Machine Learning</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link">Digital Marketing</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link">Data Science</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link">UI/UX Design</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h5>Contact Info</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <i class="fas fa-map-marker-alt mr-2" style="color: #667eea;"></i>
+                                <span style="color: rgba(255, 255, 255, 0.7);">India</span>
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-phone-alt mr-2" style="color: #667eea;"></i>
+                                <a href="tel:9149858527" class="footer-link">9149858527</a>
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-envelope mr-2" style="color: #667eea;"></i>
+                                <a href="mailto:amarkrishna075@gmail.com"
+                                    class="footer-link">amarkrishna075@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                        <p class="mb-0" style="color: rgba(255, 255, 255, 0.7);">
+                            &copy; 2025 <strong>AmarKrishna</strong>. All Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item"><a href="#" class="footer-link">Privacy Policy</a></li>
+                            <li class="list-inline-item">|</li>
+                            <li class="list-inline-item"><a href="#" class="footer-link">Terms of Service</a></li>
+                            <li class="list-inline-item">|</li>
+                            <li class="list-inline-item"><a href="#" class="footer-link">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
+    <a href="#" class="btn btn-lg btn-premium back-to-top"
+        style="position: fixed; bottom: 30px; right: 100px; display: none; width: 50px; height: 50px; border-radius: 50%; align-items: center; justify-content: center; z-index: 999;">
+        <i class="fas fa-angle-up"></i>
+    </a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- AI Components -->
+    <script src="js/ai-components.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
 
+    <script>
+        // Initialize Owl Carousel for testimonials
+        $(document).ready(function () {
+            $(".testimonial-carousel").owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                nav: false,
+                dots: true,
+                smartSpeed: 800
+            });
+        });
+    </script>
+</body>
 
 </html>
